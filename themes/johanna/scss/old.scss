@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #ebfaeb;
+    background-color: $background-color;
     overflow-y: scroll;
 }
 
@@ -18,26 +18,28 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: $background-color-body;
 }
 
 h1 {
-    color: #70db70;
+    color: $font-color;
 }
 
 /* Header */
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #fff;
-    color: #2b2e30;
+    background-color: $background-color-body;
+    border-left: 2px solid $border;
+    border-right: 2px solid $border;
+    //color: #2b2e30;
     padding: 0 2em;
     display: flex;
 }
 
 .site-header a,
 .site-header a:visited {
-    color: #2b2e30;
+    color: $font-color;
     text-decoration: none;
 }
 
@@ -55,8 +57,11 @@ h1 {
 .main {
     flex: 1 0 auto;
     padding: 2em;
-    background-color: #fff;
+    background-color: $background-color-body;
+    border-left: 2px solid $border;
+    border-right: 2px solid $border;
     min-height: 600px;
+    color: $font-color-main;
 }
 
 .container {
@@ -68,18 +73,30 @@ h1 {
 
     a {
         text-decoration: none;
-        color: #000;
+        color: $font-color;
     }
 
     a:hover {
-        color: #70db70;
+        text-decoration: underline;
+        color: $hover;
+    }
+
+    img {
+        filter: $filter;
     }
 }
 
-.flash-region img {
-    width: 100%;
-    height: auto;
-    padding: 2em;
+.flash-region {
+    border-left: 2px solid $border;
+    border-right: 2px solid $border;
+
+
+    img {
+        width: 100%;
+        height: auto;
+        padding: 2em;
+        filter: $filter;
+    }
 }
 
 /* Footer */
@@ -87,13 +104,19 @@ h1 {
 
 .site-footer {
     flex: 0 0 auto;
-    background: #fff;
-    border-top: 5px solid #ebfaeb;
-    color: #70db70;
+    background: $background-color-body;
+    border-top: 5px solid $border-alternative;
+    border-left: 2px solid $border;
+    border-right: 2px solid $border;
+    color: $font-color;
     padding: 2em;
 
     a {
-        color: #70db70;
+        color: $font-color;
+    }
+
+    a:hover {
+        color: $hover;
     }
 }
 

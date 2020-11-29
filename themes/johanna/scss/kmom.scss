@@ -19,6 +19,14 @@
     a {
         margin: 0;
     }
+
+    h4 {
+        display: contents;
+    }
+
+    img {
+        filter: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -26,7 +34,7 @@
         gap: 0;
         grid-template-columns: auto;
     }
-    
+
     .kmomreport.menu {
         display: none;
     }

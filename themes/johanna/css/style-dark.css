@@ -6465,7 +6465,7 @@ readers do not read off random characters that represent icons */
 }
 
 html {
-  background-color: #e7f7df;
+  background-color: #121212;
   overflow-y: scroll;
 }
 
@@ -6477,26 +6477,26 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #121212;
 }
 
 h1 {
-  color: #3e7d15;
+  color: #84a470;
 }
 
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #fff;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  background-color: #121212;
+  border-left: 2px solid #84a470;
+  border-right: 2px solid #84a470;
   padding: 0 2em;
   display: flex;
 }
 
 .site-header a,
 .site-header a:visited {
-  color: #3e7d15;
+  color: #84a470;
   text-decoration: none;
 }
 
@@ -6513,11 +6513,11 @@ h1 {
 .main {
   flex: 1 0 auto;
   padding: 2em;
-  background-color: #fff;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  background-color: #121212;
+  border-left: 2px solid #84a470;
+  border-right: 2px solid #84a470;
   min-height: 600px;
-  color: #181818;
+  color: #eee;
 }
 
 .container {
@@ -6528,42 +6528,42 @@ h1 {
 }
 .container a {
   text-decoration: none;
-  color: #3e7d15;
+  color: #84a470;
 }
 .container a:hover {
   text-decoration: underline;
-  color: #e7f7df;
+  color: #eee;
 }
 .container img {
-  filter: none;
+  filter: grayscale(50%);
 }
 
 .flash-region {
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-left: 2px solid #84a470;
+  border-right: 2px solid #84a470;
 }
 .flash-region img {
   width: 100%;
   height: auto;
   padding: 2em;
-  filter: none;
+  filter: grayscale(50%);
 }
 
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background: #fff;
-  border-top: 5px solid #e7f7df;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-  color: #3e7d15;
+  background: #121212;
+  border-top: 5px solid #84a470;
+  border-left: 2px solid #84a470;
+  border-right: 2px solid #84a470;
+  color: #84a470;
   padding: 2em;
 }
 .site-footer a {
-  color: #3e7d15;
+  color: #84a470;
 }
 .site-footer a:hover {
-  color: #e7f7df;
+  color: #eee;
 }
 
 .site-footer .social {
@@ -6606,7 +6606,7 @@ h1 {
 }
 
 .nav a {
-  color: #3e7d15;
+  color: #84a470;
 }
 
 .nav a:hover,
@@ -6668,15 +6668,15 @@ h1 {
 .kmom-box {
   width: 100%;
   grid-column: span 1;
-  border: 5px solid #e7f7df;
+  border: 5px solid #84a470;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 0 1em;
 }
 .kmom-box h4 {
-  background-color: #e7f7df;
-  color: #3e7d15;
+  background-color: #84a470;
+  color: #121212;
   padding: 1em;
   width: inherit;
   text-align: center;
@@ -6685,18 +6685,18 @@ h1 {
   padding: 1em;
 }
 .kmom-box a:hover .arrow {
-  border: solid #e7f7df;
+  border: solid #eee;
   border-width: 0 8px 8px 0;
 }
 
 .kmom-box.project {
   grid-column: span 3;
   width: 100%;
-  border: 5px solid #e7f7df;
+  border: 5px solid #84a470;
 }
 
 .arrow {
-  border: solid #3e7d15;
+  border: solid #84a470;
   border-width: 0 8px 8px 0;
   display: inline-block;
   padding: 8px;

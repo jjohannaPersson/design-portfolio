@@ -1,5 +1,5 @@
 ---
-Logo: image/logo2.jpg
+Logo: image/logo3.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
@@ -11,4 +11,10 @@ Social:
     - title: Link till Google.
       url: https://www.google.se/
       icon: fab fa-google
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
