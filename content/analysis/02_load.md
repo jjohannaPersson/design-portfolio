@@ -8,25 +8,26 @@ Laddningstid
 ==========================
 
 <div class="kmomreport menu">
-<a href="01_colors"><li>Färger</li></a>
-<a href="02_load"><li>Laddningstid</li></a>
-<a href="03_design_principles"><li>Designprinciper</li></a>
+<a href="01_colors" aria-label="menu"><ul><li>Färger</li></ul></a>
+<a href="02_load" aria-label="menu"><ul><li>Laddningstid</li></ul></a>
+<a href="03_design_principles" aria-label="menu"><ul><li>Designprinciper</li></ul></a>
+<a href="11_design-och-webbplatser" aria-label="menu"><ul><li>Laddningstid Advokatfirma</li></ul></a>
 </div>
 
 <div class="kmomreport">
 
 <p>Den här uppgiften går ut på att analysera tre olika webbplatsers laddningstid. Jag tittar sedan på om det finns några saker som kan förbättras med tanke på laddningstid och användbarhet.<br><br></p>
 
-<h4>Urval</h4>
+<h2>Urval</h2>
 
 <p><br>Jag har valt att analysera Nelly, Handelsbanken och Aftonbladet. Jag valde dessa då alla tre är webbplatser som har många besökare men samtidigt har olika syften med sina sidor. Jag tycker det ska bli intressant att se om/hur de skiljer sig åt.<br><br></p>
 
 
-<h4>Metod</h4>
+<h2>Metod</h2>
 
 <p><br>För att mäta de olika webbsidornas laddningstid har jag använt mig av verktyget Pagespeed Insights och devtools flik 'network'. När jag fick fram de olika siffrorna för respektive webbplats så sammanställde jag allt i ett excelark.<br><br></p>
 
-<h4>Resultat</h4>
+<h2>Resultat</h2>
 
 <p>Du hittar excelarket: <a href="https://studentbth-my.sharepoint.com/:x:/g/personal/jopn20_student_bth_se/EWx57JaQ4bJHh1Aa0fh5U9QBuj8Lfj4B3JpEsxHkVTdFmw?e=2Xa9rc">HÄR</a></p>
 
@@ -53,7 +54,7 @@ Laddningstid
 <br><br></p>
 
 
-<h4>Analys</h4>
+<h2>Analys</h2>
 
 <p><br>Alla tre webbplatser presterar bättre på datorn än mobilen. Handelsbanken och Aftonbladet ligger på det orangea värdet för datorn och rött för mobilen medan Nelly ligger på rött för både dator och mobil. Alla tre webbsidor fick som förbättringsåtgärd att ta bort JavaScript som inte används och oanvänd CSS. Vi kan även se att Nelly har väldigt mycket mer resurser än vad både Handelsbanken och Aftonbladet har. Dock så har även Aftonbladet mycket resurser på sin startsida.
 <br><br></p>
@@ -70,7 +71,7 @@ Min rangordning på dessa webbplatser baserat på deras mätvärden blir:<br><br
 <br><br></p>
 
 
-<h4>Referenser</h4><br><br>
+<h2>Referenser</h2><br><br>
 
 PageSpeed Insights <br>
 <a href="https://developers.google.com/speed/pagespeed/insights/">https://developers.google.com/speed/pagespeed/insights/<br><br></a>
@@ -87,7 +88,7 @@ Aftonbladet <br>
 <a href="https://www.aftonbladet.se/">https://www.aftonbladet.se/
 <br><br></a>
 
-<h4>Övrigt</h4><br><br>
+<h2>Övrigt</h2><br><br>
 
 Jag har gjort rapporten/analysen själv och mitt namn är Johanna Persson.
 </div>

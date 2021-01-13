@@ -8,13 +8,13 @@ Kmom10 / Projekt
 ==========================
 
 <div class="kmomreport menu">
-<a href="kmom01"><li>Kmom01</li></a>
-<a href="kmom02"><li>Kmom02</li></a>
-<a href="kmom03"><li>Kmom03</li></a>
-<a href="kmom04"><li>Kmom04</li></a>
-<a href="kmom05"><li>Kmom05</li></a>
-<a href="kmom06"><li>Kmom06</li></a>
-<a href="kmom10"><li>Projekt</li></a>
+<a href="kmom01" aria-label="menu"><ul><li>Kmom01</li></ul></a>
+<a href="kmom02" aria-label="menu"><ul><li>Kmom02</li></ul></a>
+<a href="kmom03" aria-label="menu"><ul><li>Kmom03</li></ul></a>
+<a href="kmom04" aria-label="menu"><ul><li>Kmom04</li></ul></a>
+<a href="kmom05" aria-label="menu"><ul><li>Kmom05</li></ul></a>
+<a href="kmom06" aria-label="menu"><ul><li>Kmom06</li></ul></a>
+<a href="kmom10" aria-label="menu"><ul><li>Projekt</li></ul></a>
 </div>
 
 <div class="kmomreport">

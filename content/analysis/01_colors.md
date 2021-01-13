@@ -8,27 +8,28 @@ Färger
 ==========================
 
 <div class="kmomreport menu">
-<a href="01_colors"><li>Färger</li></a>
-<a href="02_load"><li>Laddningstid</li></a>
-<a href="03_design_principles"><li>Designprinciper</li></a>
+<a href="01_colors" aria-label="menu"><ul><li>Färger</li></ul></a>
+<a href="02_load" aria-label="menu"><ul><li>Laddningstid</li></ul></a>
+<a href="03_design_principles" aria-label="menu"><ul><li>Designprinciper</li></ul></a>
+<a href="11_design-och-webbplatser" aria-label="menu"><ul><li>Laddningstid Advokatfirma</li></ul></a>
 </div>
 
 <div class="kmomreport">
 
 <p>Den här uppgiften går ut på att analysera tre olika webbplatsers färger och typografi. Vi tittar på vilken känsla vi tror att webbplatsen vill förmedla med sin färger.<br><br></p>
 
-<h4>Urval</h4>
+<h2>Urval</h2>
 
 <p><br>Jag har valt att undersöka NetOnNet, Media Markt och Elgiganten. Jag valde dessa då de säljer produkter inom samma kategori och presenterar sig själva med olika färger och typsnitt. Det är även webbsidor jag själva har handlat ifrån.<br><br></p>
 
 
-<h4>Metod</h4>
+<h2>Metod</h2>
 
 <p><br>För att undersöka vilka färger webbsidorna använder sig av har jag använt mig av verktyget ColorZilla som gör så att jag kan trycka på färgen på hemsidan och få fram dess färgkod. Jag har sedan använt mig av hemsidan Adobe color för att se vilken typ av färgschema respektive företag har.<br><br>
 
 För att få fram vilka typsnitt företagen använder så jag använt mig av dev-tools inspect.<br><br></p>
 
-<h4>Resultat</h4>
+<h2>Resultat</h2>
 
 <p><strong>NetOnNet</strong></p>
 <img src="../assets/img/netonnet.jpg" alt="Startsida NetOnNet" width=100% height=auto>
@@ -97,7 +98,7 @@ Typsnitt<br>
 <p><br>Färgerna på denna sida är också givna i och med färgen på deras logotyp. Typsnittet är stilrent och färgen används diskrekt, vilket jag tycker ger en bra känsla. Det intrycket tror jag att de vill utsända.<br><br></p>
 
 
-<h4>Analys</h4>
+<h2>Analys</h2>
 
 <p><br>Vi kan utifrån resultaten ovan se att alla företag har valt att använda sin färg från logotypen som sin accentfärg. Det tror jag de gör för att påminna kunden hela tiden om vilken sida de är inne på. De vill hela tiden visa sina färger och få kunderna att tänka på varumärket när de ser just deras specifika färg. Färgen röd, som både NetOnNet och MediaMarkt använder sig av, ger även ett intryck av låga priser då många associerar den färgen med just kampanjer och liknande.<br><br></p>
 
@@ -106,7 +107,7 @@ Typsnitt<br>
 <p>Samtliga företag använder sig av samma tysnitt, eller en variation av samma typsnitt, i både rubriker och brödtext. Alla använder sig även av sans-seriff på sina typsnitt, både i rubriker och brödtext. Detta upplevs som väldigt enkelt och billigt, vilket man mest sannolikt vill uppnå som företag när man säljer dessa typer av produkter.<br><br></p>
 
 
-<h4>Referenser</h4><br><br>
+<h2>Referenser</h2><br><br>
 
 Adobe Color <br>
 <a href="https://color.adobe.com/sv/create/color-wheel">https://color.adobe.com/sv/create/color-wheel<br><br></a>
@@ -120,7 +121,7 @@ MediaMarkt <br>
 NetOnNet <br>
 <a href="https://www.netonnet.se/">https://www.netonnet.se/<br><br></a>
 
-<h4>Övrigt</h4><br><br>
+<h2>Övrigt</h2><br><br>
 
 Jag har gjort rapporten/analysen själv och mitt namn är Johanna Persson.
 </div>
